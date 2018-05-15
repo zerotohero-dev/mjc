@@ -1,0 +1,14 @@
+{
+  "name": "mjc",
+  "version": "0.0.1",
+  "description": "MJC (for mj-copy) takes your src/**/*.js files and copies them into lib (or another folder that you specify) while changing the file extensions to .mjs.",
+  "main": "index.js",
+  "repository": "git@github.com:jsbites/mjc.git",
+  "author": "Volkan Özçelik <me@volkan.io>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "globby": "^8.0.1",
+    "mkdirp": "^0.5.1"
+  }
+}
